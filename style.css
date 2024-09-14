@@ -8,7 +8,7 @@
 }
 
 #nav-section {
-  background-image: url('../images/nav-background-img.png');
+  background-image: url('./images/nav-background-img.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
