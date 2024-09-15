@@ -5,6 +5,30 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: "Inter", sans-serif;
+}
+
+.pet-title {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 700 !important;
+  font-size: 4.5em !important;
+  letter-spacing: -2.5%;
+}
+
+.upper-title {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 2.5%;
+    margin-bottom: 0;
+}
+
+.big-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 2.5em;
+  color: #AC2500;
+  letter-spacing: -2.5%;
 }
 
 #nav-section {
@@ -15,8 +39,24 @@
   width: 100%;
 }
 
-.bg-pet-white {
+.bg-pet {
   background-color: #FFEEE8;
+}
+
+.bg-pet-white {
+  background-color: #FCFCFC;
+}
+
+.bg-pet-light {
+  background-color: #FFEAC8;
+}
+
+.bg-pet-dark {
+  background-color: #7C002F;
+}
+
+.stroke-pet-light {
+  stroke: #FFEAC8;
 }
 
 .bg-pet-primary-gradient {
@@ -24,6 +64,22 @@
   color: #FFEEE8;
   font-weight: bold;
   transition: 0.5s;
+}
+
+.pet-less-darker-font {
+  color: #AC2500;
+}
+
+.pet-darker-font {
+  color: #531200;
+}
+
+.pet-lighter-font {
+  color: #FFEEE8;
+}
+
+.bg-pet-less-darker {
+  background-color: #FFC4A4;
 }
 
 .bg-pet-primary-gradient:hover {
@@ -46,4 +102,64 @@
 
 .nav-link.active {
   color: #E13000 !important;
+}
+
+.icon {
+  width: 45px;
+  height: auto;
+}
+
+.icon-sm {
+  width: 25px;
+  height: auto;
+}
+
+.payment-upper-title {
+  font-family: "Sarabun", sans-serif;
+  margin-bottom: -1em;
+}
+
+.price-tag {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 800;
+  font-size: 3.5em;
+}
+
+#cupom {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 2.0em;
+  border: 1px dotted white;
+  border-radius: 10px;
+}
+
+#primary-card {
+  border-radius: 38px;
+}
+
+.card-title-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.card-body-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 2.0em;
+}
+
+.footer-bg {
+  background-color: #531200;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-top: 2em;
+}
+
+.footer-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #FFEEE8;
+  cursor: pointer;
 }
