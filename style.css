@@ -14,3 +14,36 @@
   height: 25em;
   width: 100%;
 }
+
+.bg-pet-white {
+  background-color: #FFEEE8;
+}
+
+.bg-pet-primary-gradient {
+  background: linear-gradient(180deg, #E13000 0%, #B52700 100%);
+  color: #FFEEE8;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.bg-pet-primary-gradient:hover {
+  background: linear-gradient(180deg, #B52700 0%, #E13000 100%);
+  color: #FFEEE8;
+  font-weight: bold;
+}
+
+.inter-dark {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #531200;
+}
+
+.nav-link:hover {
+  color: #E13000;
+}
+
+.nav-link.active {
+  color: #E13000 !important;
+}
