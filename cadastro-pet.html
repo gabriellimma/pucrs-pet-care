@@ -28,65 +28,73 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="./index.html">Início</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Cadastro</li>
+            <li class="breadcrumb-item" aria-current="page"><a href="./cadastro.html">Cadastro tutor</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cadastro pet</li>
           </ol>
         </nav>
-        <p class="upper-title mt-5 pet-less-darker-font" style="font-size: 1.4em;">entra pro time</p>
+        <p class="upper-title mt-5 pet-less-darker-font" style="font-size: 1.4em;">quase lá...</p>
         <h1 class="cadastro-title">crie sua conta</h1>
-        <p class="pet-darker-font" style="font-size: large;">chega junto que estamos te esperando! pra começar
-          faça o seu cadastro abaixo</p>
+        <p class="pet-darker-font" style="font-size: large;">agora, coloque mais informações sobre o seu pet, assim
+          a gente consegue personalizar o atendimento dele</p>
         <div class="col-md-8">
           <form>
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="nome" class="form-label pet-darker-font">nome completo</label>
-                <input type="text" class="form-control" id="nome" placeholder="digite seu nome">
+                <label for="nome-pet" class="form-label pet-darker-font">nome</label>
+                <input type="text" class="form-control" id="nome-pet" placeholder="João">
               </div>
               <div class="col-md-6 mb-3">
-                <label for="sobrenome" class="form-label pet-darker-font ">data de nascimento</label>
-                <input type="date" class="form-control" id="sobrenome">
+                <label for="idade" class="form-label pet-darker-font">idade</label>
+                <input type="number" class="form-control" id="idade" placeholder="5">
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="endereco" class="form-label pet-darker-font">endereço completo</label>
-                <input type="address" class="form-control" id="endereco" placeholder="Rua Maria Antônia Numero 76">
+                <label for="kind" class="form-label pet-darker-font">raça</label>
+                <input type="kind" class="form-control" id="kind" placeholder="Shih-tzu">
               </div>
               <div class="col-md-6 mb-3">
-                <label for="zip-code" class="form-label pet-darker-font">cep</label>
-                <input type="zip" class="form-control" id="zip-code" placeholder="09990-070">
+                <label for="peso" class="form-label pet-darker-font">peso</label>
+                <input type="text" class="form-control" id="peso" placeholder="8kg">
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="email" class="form-label pet-darker-font">e-mail</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="tutor@gmail.com">
-                <div id="emailHelp" class="form-text">Nós não compartilharemos seu email com ningúem.</div>
+                <label for="temperamento" class="form-label pet-darker-font">temperamento</label>
+                <select class="form-select" aria-label="Cachorro" id="temperamento">
+                  <option selected>Dócil</option>
+                  <option value="1">Estressado</option>
+                  <option value="2">Raivoso</option>
+                  <option value="3">Demônio na terra</option>                  
+                </select>
+                
               </div>
               <div class="col-md-6 mb-3">
-                <label for="password" class="form-label pet-darker-font">senha</label>
-                <input type="password" class="form-control" id="password">
+                <label for="type" class="form-label pet-darker-font">tipo</label>
+                <select class="form-select" aria-label="Cachorro" id="type">
+                  <option selected>Cachorro</option>
+                  <option value="1">Gato</option>
+                  <option value="2">Ave</option>
+                  <option value="3">Silvestre</option>
+                  <option value="4">Outro</option>
+                </select>
               </div>
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label pet-darker-font" for="exampleCheck1">Eu declaro que ao continuar aceito os termos e serviços do site</label>
             </div>
             <div class="d-flex justify-content-end">
-              <a href="./cadastro-pet.html" class="btn bg-pet-primary-gradient rounded-pill">Próximo ></a>
+              <a type="submit" href="./index.html" class="btn bg-pet-primary-gradient rounded-pill">Cadastrar</a>
             </div>
           </form>
         </div>
       </div>
       <div class="col-md-4">
-        <img src="./images/img-cadastro.png" alt="" style="width: 100%;">
+        <img src="./images/dog-img-1.png" alt="" style="width: 100%;">
       </div>
     </div>
   </section>
 
   <footer class="container-fluid footer-bg">
     <div class="container-md pt-3">
-      <div class="row pt-2\\">
+      <div class="row pt-2">
         <div class="col-md-3">
           <img src="./images/logo-footer2.svg" alt="Pet Care" width="120" height="auto">
         </div>

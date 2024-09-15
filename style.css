@@ -163,3 +163,10 @@
   color: #FFEEE8;
   cursor: pointer;
 }
+
+.cadastro-title {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #531200;
+}
