@@ -3,7 +3,7 @@ Repositório da entrega final da fase 2 do projeto de desenvolvimento web
 
 > esse projeto não foi desenvolvido para ser responsivo.
 
-## Feature contemplatadas no projeto
+## Feature contempladas no projeto
 
 ### Landing page
 
